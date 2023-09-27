@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Page = async () => {
+const Page = () => {
     return (
         <div className="flex justify-center items-center w-full h-screen">
             <Link
