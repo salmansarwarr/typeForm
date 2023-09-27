@@ -2,7 +2,7 @@ import { getFormData } from "../api";
 import Form from "../components/Form";
 
 const Page = async () => {
-    const {fields} = await getFormData();
+    const {fields} = await getFormData() || [];
 
     return (
         <>
